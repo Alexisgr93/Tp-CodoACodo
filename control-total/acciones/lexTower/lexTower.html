@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>W3.CSS</title>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo/index.css">
+   
+    <script src="js/index.js"></script>
+    </head>
+		<body>
+			<header>
+                <!--background del header-->
+                
+                	<a href="index.html">                   
+                        <!--logo de engranaje con petroleo-->
+                      <!--  <img id="logo" src="logo/logo.png"></img>
+                        <!--Imagen de metalfer-->
+                        <img id="frases" src="logo/Frases.png"></img>
+                	</a>
+        			<!-- Page Content -->
+						<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+  							<img class="w3-button w3-white w3-xxlarge" id="hamburguesa" src="logo/menu.png" onclick="w3_open()">
+                    <!-- Sidebar -->
+                    	<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+                        <img id="alexis-sidebar" src="logo/LOGOg.png"></img>
+                   
+                        	<div class="scroll" id="scroll-sidebar">
+                      		  <button class="w3-bar-item w3-buttn w3-large" onclick="w3_close()">CERRAR X</button>
+                              
+
+	
+							 <a href="#" onClick="frases_oculta('frases_a_mostrar')" title="" class="w3-bar-item w3-buttn Frases" >Frases Metalfer &#43;</a>
+
+<div id="frases_a_mostrar">
+                              <a href="acciones/freases famosas/Alexis.htm" class="w3-bar-item w3-buttn">Alexis Rodríguez</a>
+                              <a href="acciones/freases famosas/Nestor.html" class="w3-bar-item w3-buttn">Néstor Bartoletti</a>
+                              <a href="acciones/freases famosas/Raul.html" class="w3-bar-item w3-buttn">Raúl Orozco</a>
+                              <a href="acciones/freases famosas/Carpentieri.html" class="w3-bar-item w3-buttn">Eduardo Carpentieri</a>
+                              <a href="acciones/freases famosas/Gonzalez.html" class="w3-bar-item w3-buttn">Eduardo Gonzalez</a>
+                              <a href="acciones/freases famosas/Omar.html" class="w3-bar-item w3-buttn">Omar Acuña</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Dario Acuña</a>
+                              <a href="acciones/freases famosas/Horacio.html" class="w3-bar-item w3-buttn">Horacio Alvarez</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Matias Brito</a>
+                              <a href="acciones/freases famosas/Laura.html" class="w3-bar-item w3-buttn">Laura</a>
+                              <a href="#" class="w3-bar-item w3-buttn">Hernan</a>
+                              <a href="acciones/freases famosas/Juan.html" class="w3-bar-item w3-buttn">Juan</a>
+                              <a href="acciones/freases famosas/Francisco.html" class="w3-bar-item w3-buttn">Francisco Lugo</a>
+                              
+                   	</div>	
+                        <!-- redes sociales -->
+					<div id="social">
+                	
+					<a  href="#">
+                    	<img class="facebook" onClick="face" src="backround/f.png"></img>
+                        </a>
+				<a href="#">
+                    	<img  class="linkedin"  src="backround/in.png"></img>
+                        </a>
+                <a href="#">
+                    	<img  class="twitter" src= "backround/t.png"></img>
+                        </a>
+					
+				
+
+			<div class="copyright">Copyright © All Rights Reserved.</div>
+		</div>
+		<!--Fin redes sociales -->
+	</div>
+                        </div>
+                        </div>
+			</header>
+		
+          <section>
+            <div class="backgroung">
+            	<div class="background1">
+                <div class="backgroung2">
+                <div class="scroll">
+                
+ <div id="caja"></div>
+                 
+<div class="gb-list-layout">
+  <div class="gb-list-layout-main">
+      <div class="gb-product-list">
+          <ul class="gb-list-grid">
+          
+          
+                  <li type=button onclick="musica(this,'tema01.mp3')" 
+value="Sonido 19">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="77b2b868c4" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio1()" type="button">
+                                        <img id="myImg" class="facebook" src="backround/carp.jpg" >
+                                        </button>
+                                       
+                                    </div><button onClick="playPause" type="button"></button>
+                                </div>
+        
+                                <h3 onclick="guardarDatos()" id="demo" class="gb-list-cluster-title">
+                                    Gratuitamente.
+                                </h3>
+        
+                            </a>
+        
+                        </div>
+            </li>
+            <audio id="myAudio1">
+  <source src="canciones/tema01.mp3">
+						</audio>
+            
+            
+            
+            
+                    <li type=button onclick="musica(this,'tema02.mp3')" 
+value="Sonido 2">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio2()" type="button">
+                                        <img type=button onclick="musica(this,'tema02.mp3')" 
+value="Sonido 2" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                Tomatela.
+                                </h3>
+        					 </a>
+        				 </div>
+                    </li>
+                    <audio id="myAudio2">
+  <source src="canciones/tema02.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema03.mp3')" 
+value="Sonido 3">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio3()" type="button">
+                                        <img type=button onclick="musica(this,'tema03.mp3')" 
+value="Sonido 3" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Se Hace.
+                                </h3>
+        					 </a>
+        				 </div>
+                    </li>
+                    <audio id="myAudio3">
+  <source src="canciones/tema03.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema04.mp3')" 
+value="Sonido 20">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio4()" type="button">
+                                        <img onclick="myFunction1()" id="myImg1" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 onclick="myFunction1()" id="demo1" class="gb-list-cluster-title">
+                                    Claro que lo extraño.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio4">
+  <source src="canciones/tema04.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema05.mp3')" 
+value="Sonido 5">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio5()" type="button">
+                                        <img type=button onclick="musica(this,'tema05.mp3')" 
+value="Sonido 5" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    El unico Macho.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio5">
+  <source src="canciones/tema05.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema06.mp3')" 
+value="Sonido 21">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio6()" type="button">
+                                        <img onclick="myFunction2()" id="myImg2" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 onclick="myFunction2()" id="demo2" class="gb-list-cluster-title">
+                                    El Clavo este.
+                                </h3>
+        					</a>
+        				</div>
+                    </li>
+                    <audio id="myAudio6">
+  <source src="canciones/tema06.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema07.mp3')" 
+value="Sonido 7">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio7()" type="button">
+                                        <img type=button onclick="musica(this,'tema07.mp3')" 
+value="Sonido 7" src="./img/camposSalles/1371-Render.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Pero yo a él.
+                                </h3>
+        					</a>
+        				 </div>
+                    </li>
+                    <audio id="myAudio7">
+  <source src="canciones/tema07.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema08.mp3')" 
+value="Sonido 8">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio8()" type="button">
+                                        <img type=button onclick="musica(this,'tema08.mp3')" 
+value="Sonido 8" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Dario mi amigo.
+                                </h3>
+        					</a>
+        				</div>
+                    </li>
+                    <audio id="myAudio8">
+  <source src="canciones/tema08.mp3">
+						</audio>
+                   
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema09.mp3')" 
+value="Sonido 9">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio9()" type="button">
+                                        <img type=button onclick="musica(this,'tema09.mp3')" 
+value="Sonido 9" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Una cartita.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio9">
+  <source src="canciones/tema09.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema10.mp3')" 
+value="Sonido 10">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio10()" type="button">
+                                        <img type=button onclick="musica(this,'tema10.mp3')" 
+value="Sonido 10" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Despues de los 50.
+                                </h3>
+        					</a>
+        				</div>
+                    </li>
+                    <audio id="myAudio10">
+  <source src="canciones/tema10.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema11.mp3')" 
+value="Sonido 11">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio11()" type="button">
+                                        <img type=button onclick="musica(this,'tema10.mp3')" 
+value="Sonido 11" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Mas feo.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio11">
+  <source src="canciones/tema11.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema12.mp3')" 
+value="Sonido 12">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio12()" type="button">
+                                        <img type=button onclick="musica(this,'tema12.mp3')" 
+value="Sonido 12" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Yo soy lindo.
+                                </h3>
+        					</a>
+        				</div>
+                    </li>
+                    <audio id="myAudio12">
+  <source src="canciones/tema12.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema13.mp3')" 
+value="Sonido 13">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio13()" type="button">
+                                        <img type=button onclick="musica(this,'tema13.mp3')" 
+value="Sonido 13" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Aleee.
+                                </h3>
+        					</a>
+        				 </div>
+                    </li>
+                    <audio id="myAudio13">
+  <source src="canciones/tema13.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema14.mp3')" 
+value="Sonido 14">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio14()" type="button">
+                                        <img type=button onclick="musica(this,'tema14.mp3')" 
+value="Sonido 14" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Todo bien.
+                                </h3>
+        					</a>
+        				 </div>
+                    </li>
+                    <audio id="myAudio14">
+  <source src="canciones/tema14.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema15.mp3')" 
+value="Sonido 15">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio15()" type="button">
+                                        <img type=button onclick="musica(this,'tema15.mp3')" 
+value="Sonido 15" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    29 de diciembre.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio15">
+  <source src="canciones/tema15.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema16.mp3')" 
+value="Sonido 16">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio16()" type="button">
+                                        <img type=button onclick="musica(this,'tema16.mp3')" 
+value="Sonido 16" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    El que se contamino.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio16">
+  <source src="canciones/tema16.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema17.mp3')" 
+value="Sonido 17">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio17()" type="button">
+                                        <img type=button onclick="musica(this,'tema17.mp3')" 
+value="Sonido 17" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Mecha gruesa.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio17">
+  <source src="canciones/tema17.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema18.mp3')" 
+value="Sonido 18">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio18()" type="button">
+                                        <img type=button onclick="musica(this,'tema18.mp3')" 
+value="Sonido 18" src="backround/carp.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Ahora estoy ocupado.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio18">
+  <source src="canciones/tema18.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema19.mp3')" 
+value="Sonido 19">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio19()" type="button">
+                                        <img type=button onclick="musica(this,'tema19.mp3')" 
+value="Sonido 19" src="backround/lau.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Que te pensas.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio19">
+  <source src="canciones/tema19.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema20.mp3')" 
+value="Sonido 20">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio20()" type="button">
+                                        <img type=button onclick="musica(this,'tema20.mp3')" 
+value="Sonido 20" src="backround/lau.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Hay que miedo.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio20">
+  <source src="canciones/tema20.mp3">
+						</audio>
+                    
+                    
+                    
+                    
+                    <li type=button onclick="musica(this,'tema21.mp3')" 
+value="Sonido 21">
+                        <div class="gb-list-cluster">
+                            <i class="gb-icon-favorite gb-icon-favorite-border" data-id="d3be6ed76c" data-js="action-wish" data-active="false"></i>
+                            
+                            <a  href="#">
+        
+                                <div class="gb-list-cluster-picture">
+                                    <div class="gb-list-cluster-picture-inner">
+                                        <span class="gb-spinner"></span>
+                                        <button onClick="playAudio21()" type="button">
+                                        <img type=button onclick="musica(this,'tema21.mp3')" 
+value="Sonido 21" src="backround/lau.jpg" class="facebook"></button>
+                                    </div>
+                                </div>
+        
+                                <h3 class="gb-list-cluster-title">
+                                    Idiota.
+                                </h3>
+        					 </a>
+        				</div>
+                    </li>
+                    <audio id="myAudio21">
+  <source src="canciones/tema21.mp3">
+						</audio>
+                    
+               
+        </ul>
+    </div>
+
+
+  </div>
+</div>
+</div></div></div></div></section>
+        </section>
+   <footer>
+   <a href="https://www.facebook.com/profile.php?id=1371087457">
+    <img id="alexis" src="logo/LOGOb.png"></img>
+    </a>
+   </footer>
+</body>
+</html>
